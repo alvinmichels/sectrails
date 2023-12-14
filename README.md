@@ -12,7 +12,9 @@ Firstly, you should access your Security Trails account and generate an API Key 
 To make it executable directly in bash, in my case, using macOS, simply execute the following commands:
 
 $ sudo mv sectrails.sh sectrails
+
 $ sudo mv sectrails /usr/local/bin
+
 $ sudo chmod +x /usr/local/bin/sectrails
 
 If /usr/local/bin is in the $PATH, it will be executable.
